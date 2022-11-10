@@ -1,0 +1,21 @@
+.bloco {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20%;
+}
+button {
+  color: black;
+  background-color: white;
+  font: 16px arial;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+h1 {
+  font-size: 40px;
+}
+span {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
