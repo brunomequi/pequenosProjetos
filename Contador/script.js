@@ -8,6 +8,17 @@ btns.forEach((item) => {
     const styles = e.currentTarget.classList;
     if (styles.contains("decrease")) {
       count--;
+    } else if (styles.contains("increase")) {
+      count++;
+    } else {
+      count = 0;
+    }
+    if (count > 0) {
+      value.classList.add("positivo");
+    } else if (count < 0) {
+      value.classList.add("negativo");
+    } else {
+      value.removeAttribute("class");
     }
     value.textContent = count;
   });
